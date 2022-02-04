@@ -10,17 +10,26 @@ namespace mtable2
     {
         static void Main(string[] args)
         {
-            int szam = 0;
-            if (args.Length > 0)
+            int param = args.Length;
+            int szam1 = 0;
+            int szam2 = 0;
+            Random rnd = new Random();
+            switch (param)
             {
-                szam = int.Parse(args[0]);
+                case 0:
+                    szam1 = rnd.Next(1, 100);
+                    szam2 = rnd.Next(1, 100);
+                    break;
+                case 1:
+                    szam1 = int.Parse(args[0]);
+                    szam2 = rnd.Next(1, 100);
+                    break;
+                case 2:
+                    szam1 = int.Parse(args[0]);
+                    szam1 = int.Parse(args[0]);
+                    break;
             }
-            else
-            {
-                Random rnd = new Random();
-                szam = rnd.Next(1, 50);
-            }
-            Console.WriteLine(szam * 2);
+            Console.WriteLine(szam2 * szam1);
             Console.ReadKey();
         }
     }
