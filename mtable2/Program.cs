@@ -26,7 +26,7 @@ namespace mtable2
                     break;
                 case 2:
                     szam1 = int.Parse(args[0]);
-                    szam1 = int.Parse(args[0]);
+                    szam2 = int.Parse(args[1]);
                     break;
             }
             Console.WriteLine(szam2 * szam1);
