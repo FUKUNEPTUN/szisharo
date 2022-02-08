@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mtable2", "mtable2\mtable2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculator", "calculator\calculator.csproj", "{307ED5C2-455A-499C-8FE1-F4600083D25E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "k02.08k", "k02.08k\k02.08k.csproj", "{266D6375-DE82-478D-B48D-3D0380D64873}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{307ED5C2-455A-499C-8FE1-F4600083D25E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{307ED5C2-455A-499C-8FE1-F4600083D25E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{307ED5C2-455A-499C-8FE1-F4600083D25E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266D6375-DE82-478D-B48D-3D0380D64873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266D6375-DE82-478D-B48D-3D0380D64873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266D6375-DE82-478D-B48D-3D0380D64873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266D6375-DE82-478D-B48D-3D0380D64873}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
