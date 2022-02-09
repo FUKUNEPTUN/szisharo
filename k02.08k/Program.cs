@@ -16,12 +16,12 @@ namespace k02._08k
             string g;
             string p;
             int ered_1 = 0;
-            int ered_2 = 0;
-            while (f != "x")
-            {
+            int ered_2 = 0; //deklarálom a változókat, illetve randomot pédányosítom
+            while (f != "n")
+            { //while ciklusba tettem, mivel a feladat kérte, hogy addig fusson amíg a játékos ki nem szeretne lépni
                 p = Console.ReadLine();
                 switch(rnd.Next(0, 3))
-                {
+                { // switch feltételében legenerálom a 0-1-2 számot és a case-ekben számoknak megfelelően a számítógép változójához adom a K/O/P stringeket
                     case 0:
                          g = "K";
                         break;
@@ -32,25 +32,22 @@ namespace k02._08k
                          g ="P";
                         break;   
                 }
-                if (g == "K" && p == "O" || g == "P" && p == "K" || g == "O" && p == "P")
+                if (g == "K" && p == "O" || g == "P" && p == "K" || g == "O" && p == "P") //elsőnek if-el összehasonlítom a számítógép válaszát a játékos válaszával
                 {
-                    Console.WriteLine("A gép nyert");
-                    ered_1++;
+                    Console.WriteLine("A gép nyert");ered_1++;//ha igaz, akkor a gép eredményéhez hozzá adok 1et
                 }
-                else if(g == p)
+                else if(g == p) //ha megegyezik a 2 string akkor döntetlen
                 {
                     Console.WriteLine("Döntetlen");
                     
                 }
-                else
+                else //illetve minden más esetben a játékos nyert és megnöveltem az ő eredményét
                 {
-                    Console.WriteLine("Te nyertél gratulálok");
-                    ered_2++;
+                    Console.WriteLine("Te nyertél gratulálok");ered_2++;
                 }
-                Console.WriteLine("Ha kiszeretnél lépni írj x-et");
-                f = Console.ReadLine();
+                Console.WriteLine("Szeretnél még játszani? Igen= i; Nem = n."); f = Console.ReadLine(); //felajánlom a játékosnak hogy ki tud lépni ha szeretne. Itt csak az n betű a büvösszám, igazából bármilyen másik karaktert kap továbbmegy.
             }
-            Console.WriteLine("A játék véget ért. Eredmény: \nSzámítógép: {0}\nJátékos:{1}", ered_1, ered_2);
+            Console.WriteLine("A játék véget ért. Eredmény: \nSzámítógép: {0}\nJátékos:{1}", ered_1, ered_2); //végezetül kiírom végeredményt, illetve hogy a játék végetért.
         }
     }
 }
