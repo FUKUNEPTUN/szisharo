@@ -13,7 +13,7 @@ namespace k02._08k
             Console.WriteLine("Üdvözöllek a Kő, Papír, Olló mini-gameben. A feladod az, hogy megadd a te választásod. Írj K betűt, ha kő; P betűt, a papírért; O betűt, ha ollót választod. Ügyelj, hogy nagy betuket használj!");
             Random rnd = new Random();
             string f = "";
-            string g;
+            string g = "";
             string p;
             int ered_1 = 0;
             int ered_2 = 0; //deklarálom a változókat, illetve randomot pédányosítom
@@ -46,6 +46,7 @@ namespace k02._08k
                     Console.WriteLine("Te nyertél gratulálok");ered_2++;
                 }
                 Console.WriteLine("Szeretnél még játszani? Igen= i; Nem = n."); f = Console.ReadLine(); //felajánlom a játékosnak hogy ki tud lépni ha szeretne. Itt csak az n betű a büvösszám, igazából bármilyen másik karaktert kap továbbmegy.
+                Console.WriteLine("Add meg a következő tipped");
             }
             Console.WriteLine("A játék véget ért. Eredmény: \nSzámítógép: {0}\nJátékos:{1}", ered_1, ered_2); //végezetül kiírom végeredményt, illetve hogy a játék végetért.
         }
