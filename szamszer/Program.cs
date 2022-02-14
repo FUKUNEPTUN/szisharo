@@ -11,7 +11,7 @@ namespace szamszer
         static void Main(string[] args)
         {
             int alsohatar = 1,
-                felsohatar = 101,
+                felsohatar = 11,
                 probal = 5,
                 gondoltszam,
                 tipp;
@@ -19,15 +19,32 @@ namespace szamszer
             Random rnd = new Random();
             do
             {
-                Console.WriteLine("Leszel az aki kitalálja?")
-                if (Console.ReadKey().KeyChar == 'i')
+                Console.WriteLine("Leszel az aki gondol egy szamra?");
+                if (Console.ReadLine() == "n")
                 {
                     gondoltszam = rnd.Next(alsohatar, felsohatar);
-                    for(int i = 0; i <= probal; i++)
+                    for (int i = 0; i <= probal; i++)
+                    {
+                        Console.WriteLine("tippeljen");
+                        tipp = int.Parse(Console.ReadLine());
+                        if (gondoltszam < tipp)
+                        {
+                            Console.WriteLine("kisebbre gondoltam ciganyy");
+                            
+                        }
+                        else if(gondoltszam > tipp){
+                            Console.WriteLine("Nagyobbat tippeljen kakálj be");
+                        }
+                        else
+                        {
+                            Console.WriteLine("gratulalok világi cigany vagy");
+                            break;
+                        }
+                    }
                 }
 
                 Console.WriteLine("Folytatjuk? (i/n)");
-            } while(Console.ReadKey().KeyChar == 'i');
+            } while(Console.ReadLine() == "i");
             Console.ReadKey();
 
         }
