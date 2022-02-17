@@ -1,0 +1,6 @@
+C:\Users\2021291\Downloads\szisharo-master (1)\szisharo-master\szamtomb\bin\Debug\szamtomb.exe.config
+C:\Users\2021291\Downloads\szisharo-master (1)\szisharo-master\szamtomb\bin\Debug\szamtomb.exe
+C:\Users\2021291\Downloads\szisharo-master (1)\szisharo-master\szamtomb\bin\Debug\szamtomb.pdb
+C:\Users\2021291\Downloads\szisharo-master (1)\szisharo-master\szamtomb\obj\Debug\szamtomb.csproj.CoreCompileInputs.cache
+C:\Users\2021291\Downloads\szisharo-master (1)\szisharo-master\szamtomb\obj\Debug\szamtomb.exe
+C:\Users\2021291\Downloads\szisharo-master (1)\szisharo-master\szamtomb\obj\Debug\szamtomb.pdb
