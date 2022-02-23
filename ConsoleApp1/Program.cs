@@ -10,8 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int i = Convert.ToInt32(Console.ReadLine()),
-                a = Convert.ToInt32(Console.ReadLine()); 
+            Console.WriteLine("intervallum első száma:");
+            int i = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("intervallum utolsó száma:");
+            int a = Convert.ToInt32(Console.ReadLine()); 
             while(i <= a)
             {
                 if (i % 5 == 0)
