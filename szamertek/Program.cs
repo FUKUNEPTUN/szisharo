@@ -29,7 +29,7 @@ namespace szamertek
                 }
                 b3++;
             }
-            Console.WriteLine("A program lefutott az eredmények a következők. Ennyi bekérés történt: {3}. Párosok száma {0}.Páratlanok száma {2}. Páratlanok összege {1}. ", b4, b2, b5,b6);
+            Console.WriteLine("A program lefutott az eredmények a következők. Ennyi bekérés történt: {3}. Párosok száma {2}. Páratlanok száma {0}. Páratlanok összege {1}. ", b4, b2, b5,b6);
             Console.ReadLine();
         }
     }
