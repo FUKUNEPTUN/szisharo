@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szamertek", "szamertek\szam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "legnagyobb", "legnagyobb\legnagyobb.csproj", "{B78C372D-9D3A-482D-A79E-5FDCED3CEF82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{411A800B-C415-4C2C-BCBF-805EB733E908}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intervallumotosei", "ConsoleApp1\intervallumotosei.csproj", "{411A800B-C415-4C2C-BCBF-805EB733E908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
