@@ -18,18 +18,18 @@ namespace szamertek
                 Console.WriteLine("Add meg a számot");
                 b1 = Convert.ToInt32(Console.ReadLine());
                
-                if (b1 % 2 == 0)
+                if (b1 % 2 == 1)
                 {
                     b4++;
                     b2 = b2 + b1;
                 }
-                else if(b1 % 2 == 1)
+                else if(b1 % 2 == 0)
                 {
                     b5++;
                 }
                 b3++;
             }
-            Console.WriteLine("A program lefutott az eredmények a következők. Ennyi bekérés történt: {3}. Párosok száma {0}. Párosok összege {1}. Páratlanok száma {2}.", b4, b2, b5,b6);
+            Console.WriteLine("A program lefutott az eredmények a következők. Ennyi bekérés történt: {3}. Párosok száma {0}.Páratlanok száma {2}. Páratlanok összege {1}. ", b4, b2, b5,b6);
             Console.ReadLine();
         }
     }
