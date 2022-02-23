@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szamtomb", "szamtomb\szamto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "konyv", "konyv\konyv.csproj", "{415496C4-52AD-4040-8214-F4C86E4E7419}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szamertek", "szamertek\szamertek.csproj", "{AAE3CA9F-EC76-4DDE-B265-F402F100BFE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{415496C4-52AD-4040-8214-F4C86E4E7419}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{415496C4-52AD-4040-8214-F4C86E4E7419}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{415496C4-52AD-4040-8214-F4C86E4E7419}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE3CA9F-EC76-4DDE-B265-F402F100BFE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE3CA9F-EC76-4DDE-B265-F402F100BFE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE3CA9F-EC76-4DDE-B265-F402F100BFE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE3CA9F-EC76-4DDE-B265-F402F100BFE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
