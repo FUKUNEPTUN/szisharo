@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intervallumotosei", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ponthatar", "ponthatar\ponthatar.csproj", "{2945BBD5-6171-4DC0-BEE9-B33F08B69831}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ponttavolsag", "ponttavolsag\ponttavolsag.csproj", "{2AFC3D2B-C9A9-414E-A4B4-BA80471E5069}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2945BBD5-6171-4DC0-BEE9-B33F08B69831}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2945BBD5-6171-4DC0-BEE9-B33F08B69831}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2945BBD5-6171-4DC0-BEE9-B33F08B69831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFC3D2B-C9A9-414E-A4B4-BA80471E5069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFC3D2B-C9A9-414E-A4B4-BA80471E5069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFC3D2B-C9A9-414E-A4B4-BA80471E5069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFC3D2B-C9A9-414E-A4B4-BA80471E5069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
