@@ -33,6 +33,15 @@ namespace classok
         {
             return this.nev;
         }
+        public string getszín()
+        {
+            return this.szín;
+        }
+        public string getfajta()
+        {
+            return this.nev;
+        }
+
         public int getkor()
         {
             return this.kor;
@@ -45,6 +54,7 @@ namespace classok
                 this.kor = p;
             }
         }
+
         class Program
         {
             static void Main(string[] args)
