@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testtomegindex", "testtomeg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cimletezes", "cimletezes\cimletezes.csproj", "{E61E5485-0D7E-4F5A-8DD8-B27A6F43511B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szisharoclass2", "szisharoclass2\szisharoclass2.csproj", "{2B334DCB-03C1-43B3-8ACF-5973949139A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{E61E5485-0D7E-4F5A-8DD8-B27A6F43511B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E61E5485-0D7E-4F5A-8DD8-B27A6F43511B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E61E5485-0D7E-4F5A-8DD8-B27A6F43511B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B334DCB-03C1-43B3-8ACF-5973949139A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B334DCB-03C1-43B3-8ACF-5973949139A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B334DCB-03C1-43B3-8ACF-5973949139A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B334DCB-03C1-43B3-8ACF-5973949139A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
