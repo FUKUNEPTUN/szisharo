@@ -34,60 +34,108 @@ namespace halmaz
             int[] aUnio;
             int[] bUnio;
 
-            if (szam <200)
+            if (szam < 200)
             {
-                 a = new int[szam];
-                 b = new int[szam];
+                a = new int[szam];
+                b = new int[szam];
                 for (int i = 0; i < szam; i++)
                 {
                     a[i] = rnd.Next(1, 200);
                     b[i] = rnd.Next(1, 200);
-                 /* Console.WriteLine("A tömb: {0} /// B tömb {1}", a[i], b[i]);      */
+                    /* Console.WriteLine("A tömb: {0} /// B tömb {1}", a[i], b[i]); */
 
+                }     
+                
+
+               /* Console.WriteLine(" A Tömb eleme");
+                for (int i = 0; i < a.Length; i++)
+                {
+
+                    Console.WriteLine(a[i]);
                 }
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine(" B Tömb eleme");
+                for (int i = 0; i < b.Length; i++)
+                {
+
+                    Console.WriteLine(b[i]);
+                }*/
+                
             }
 
 
             else
             {
                 szam = rnd.Next(100, 200);
-                 a = new int[szam];
-                 b = new int[szam];
+                a = new int[szam];
+                b = new int[szam];
                 for (int i = 0; i < szam; i++)
                 {
                     a[i] = rnd.Next(1, 200);
                     b[i] = rnd.Next(1, 200);
-                 /* Console.WriteLine("index {0}", i);
-                    Console.WriteLine("A tömb: {0} /// B tömb {1}", a[i], b[i]); */
                 }
+
+
+            /*    Console.WriteLine(" A Tömb eleme");
+                for (int i = 0; i < a.Length; i++)
+                {
+
+                    Console.WriteLine(a[i]);
+                }
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine(" B Tömb eleme");
+                for (int i = 0; i < b.Length; i++)
+                {
+
+                    Console.WriteLine(b[i]);
+                }*/
+
             }
 
 
 
-            for (int i = 0; i < szam;i++)
+            for (int i = 0; i < szam; i++)
             {
+                metszet = new int[a[i]];
                 for (int j = 0; j < szam; j++)
                 {
                     if (a[i] == b[j])
                     {
-                        metszet = new int[a[i]];
-                        Console.WriteLine("közös elem {0}", metszet[i]);
-                    }
-                    else
-                    {
-                        aUnio = new int[a[i]];
-                        
+                      metszet[i] = b[j];
                     }
                 }
-            }
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
+                for (int q = 0; q < metszet.Length; q++)
+                {
+                Console.WriteLine("közös elem {0}", metszet[q]);
+                }
 
-            Console.WriteLine(" p o r m e u o t ");
-            Console.WriteLine();
-            Console.ReadKey();
+            }
+            /*
+                for (int k = 0; k < szam; k++)
+                {
+                    for (int j = 0; j < szam; j++)
+                    {
+                        if (a[k] != b[j])
+                        {
+                            aUnio = new int[a[k]];
+                            aUnio[k] = a[k];
+                            Console.WriteLine("Különböző elem {0}", aUnio[k]);
+                        }
+
+                    }
+                }
+
+*/
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("");
+                Console.WriteLine("");
+                
+                Console.WriteLine(" p o r m e u o t ");
+                Console.WriteLine();
+                Console.ReadKey();
+            }
         }
-    }
 }
