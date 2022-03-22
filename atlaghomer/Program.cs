@@ -20,7 +20,7 @@ namespace atlagho
                 i = 0,
                 j = 0;
             int[,] homerseklet = new int[12, 30];
-            string[] honapok = new string[] { "Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December" };
+            string[] honapok = new string[] { "Január", "Február", "Március","Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December" };
 
 
             // Tömb feltöltése
