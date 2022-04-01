@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binaris", "Binaris\Binaris.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto", "Lotto\Lotto.csproj", "{B6B458E4-3E67-418A-A159-7682C6E7F32F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{1EDA90C4-3619-4328-894C-1AF361C366E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{B6B458E4-3E67-418A-A159-7682C6E7F32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6B458E4-3E67-418A-A159-7682C6E7F32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6B458E4-3E67-418A-A159-7682C6E7F32F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EDA90C4-3619-4328-894C-1AF361C366E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EDA90C4-3619-4328-894C-1AF361C366E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EDA90C4-3619-4328-894C-1AF361C366E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EDA90C4-3619-4328-894C-1AF361C366E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

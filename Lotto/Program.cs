@@ -18,6 +18,7 @@ namespace Lotto
         {
 
             Console.WriteLine("A nyerőszámok:");
+            Console.WriteLine("==============");
 
             for (int i = 0; i < szam.Length; i++)
             {
@@ -47,11 +48,12 @@ namespace Lotto
                 }
             }
             for (int i = 0; i < szam.Length; i++)
-            {Console.WriteLine("--------------");
-                Console.WriteLine(szam[i]);
-                
+            {
+                Console.WriteLine("{0}",szam[i]);
+                Console.WriteLine("--------------");
+
             }
-            Console.WriteLine("--------------");
+            
             Console.WriteLine(" ");
             Console.WriteLine(" ");
             Console.WriteLine("Add meg a te számaid:");
