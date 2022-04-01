@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szisharo", "szisharo\szisharo.csproj", "{10379747-66BD-4508-933C-FD861F910C95}"
 EndProject
@@ -66,6 +66,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "izland", "izland\izland.csproj", "{0AE824FA-5CBD-4546-AF66-70019C39C28A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homersekletElemzes", "homersekletElemzes\homersekletElemzes.csproj", "{1C85A58F-4299-4D6B-956A-CBC7F2CC818A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorozatok", "Sorozatok\Sorozatok.csproj", "{7A0B9C90-96DD-49C2-8571-EF287E8F6B0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +203,10 @@ Global
 		{1C85A58F-4299-4D6B-956A-CBC7F2CC818A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C85A58F-4299-4D6B-956A-CBC7F2CC818A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C85A58F-4299-4D6B-956A-CBC7F2CC818A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0B9C90-96DD-49C2-8571-EF287E8F6B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0B9C90-96DD-49C2-8571-EF287E8F6B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0B9C90-96DD-49C2-8571-EF287E8F6B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0B9C90-96DD-49C2-8571-EF287E8F6B0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
