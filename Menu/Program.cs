@@ -23,40 +23,24 @@ namespace Menu
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
-                        Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
-                        Console.WriteLine("-----------------------------------------------------------------------------------------------");
-                        Console.WriteLine(" ");
-                        Console.WriteLine(" ");
                         break;
                 case "2":
                     Console.WriteLine("Második menüpont");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
-                        Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
-                        Console.WriteLine("-----------------------------------------------------------------------------------------------");
-                        Console.WriteLine(" ");
-                        Console.WriteLine(" ");
                         break;
                 case "3":
                     Console.WriteLine("Harmadik menüpont");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
-                        Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
-                        Console.WriteLine("-----------------------------------------------------------------------------------------------");
-                        Console.WriteLine(" ");
-                        Console.WriteLine(" ");
                         break;
                 case "4":
                     Console.WriteLine("Negyedik menüpont");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
-                        Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
-                        Console.WriteLine("-----------------------------------------------------------------------------------------------");
-                        Console.WriteLine(" ");
-                        Console.WriteLine(" ");
                         break;
                 case "5":
                     Console.WriteLine("Sikeresen kiléptél");
@@ -67,10 +51,7 @@ namespace Menu
                         Console.WriteLine("Ilyen menüpont nem létezik.");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
-                        Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
-                        Console.WriteLine("-----------------------------------------------------------------------------------------------");
-                        Console.WriteLine(" ");
-                        Console.WriteLine(" ");
+
 
                         ; break;
                        
