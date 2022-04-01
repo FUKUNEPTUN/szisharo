@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto", "Lotto\Lotto.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu", "Menu\Menu.csproj", "{1EDA90C4-3619-4328-894C-1AF361C366E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kettes", "Kettes\Kettes.csproj", "{2B19868D-1A1E-49E4-8F59-680400608E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szamrendszer", "Szamrendszer\Szamrendszer.csproj", "{911F2DFC-F566-4C39-A9BA-7818B385EC39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +229,14 @@ Global
 		{1EDA90C4-3619-4328-894C-1AF361C366E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EDA90C4-3619-4328-894C-1AF361C366E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EDA90C4-3619-4328-894C-1AF361C366E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B19868D-1A1E-49E4-8F59-680400608E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B19868D-1A1E-49E4-8F59-680400608E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B19868D-1A1E-49E4-8F59-680400608E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B19868D-1A1E-49E4-8F59-680400608E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{911F2DFC-F566-4C39-A9BA-7818B385EC39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{911F2DFC-F566-4C39-A9BA-7818B385EC39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{911F2DFC-F566-4C39-A9BA-7818B385EC39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{911F2DFC-F566-4C39-A9BA-7818B385EC39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

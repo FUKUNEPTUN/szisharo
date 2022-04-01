@@ -12,46 +12,52 @@ namespace Menu
         public void husveti()
         {
             int a = 0;
-            Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
-            Console.WriteLine("-----------------------------------------------------------------------------------------------");
+
             while (a != 1)
-            { 
-            switch (Console.ReadLine())
+            {
+                Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
+                Console.WriteLine("-----------------------------------------------------------------------------------------------");
+                
+                switch (Console.ReadLine())
             {
                 case "1":
-                    Console.WriteLine("Első menüpont");
+                        Console.Clear();
+                        Console.WriteLine("Első menüpont");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
                         break;
                 case "2":
-                    Console.WriteLine("Második menüpont");
+                        Console.Clear();
+                        Console.WriteLine("Második menüpont");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
                         break;
                 case "3":
-                    Console.WriteLine("Harmadik menüpont");
+                        Console.Clear();
+                        Console.WriteLine("Harmadik menüpont");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
                         break;
                 case "4":
-                    Console.WriteLine("Negyedik menüpont");
+                        Console.Clear();
+                        Console.WriteLine("Negyedik menüpont");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
 
                         break;
                 case "5":
-                    Console.WriteLine("Sikeresen kiléptél");
+                        Console.Clear();
+                        Console.WriteLine("Sikeresen kiléptél");
                     a++;
                     break;
                 default:
-
+                        Console.Clear();
                         Console.WriteLine("Ilyen menüpont nem létezik.");
                         Console.WriteLine(" ");
                         Console.WriteLine(" ");
-
 
                         ; break;
                        
