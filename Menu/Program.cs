@@ -9,7 +9,7 @@ namespace Menu
     class Menu
     {
         public Menu() { }
-        public void karacsonyi()
+        public void husveti()
         {
             int a = 0;
             Console.WriteLine("1 Első menüpont|| 2 második menüpont || 3 Harmadik menüpont || 4 Negyedik menüpont || 5 Kilépés");
@@ -83,7 +83,7 @@ namespace Menu
         static void Main(string[] args)
         {
             Menu menu = new Menu(); 
-            menu.karacsonyi();
+            menu.husveti();
             Console.ReadKey();
         }
     }
