@@ -39,8 +39,8 @@ namespace Sorozatok
     {
         static void Main(string[] args)
         {
-            Sorozat sorozat = new Sorozat();
-            sorozat.kaposzta();
+            Sorozat toros = new Sorozat();
+            toros.kaposzta();
             Console.ReadKey();
         }
     }
