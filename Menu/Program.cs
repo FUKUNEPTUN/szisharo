@@ -8,6 +8,10 @@ namespace Menu
 {
     class Menu
     {
+        /// <summary>
+        /// itt csak a Console.Clear() az érdekes, ezzel mindig kitörlöm a hátramaradt szemetet, így szép marad, de amugy egy teljesen egyszerű kód,
+        /// 100%-ban megegyezzik azzal amit órán csináltunk tanár úrral táblánál
+        /// </summary>
         public Menu() { }
         public void husveti()
         {

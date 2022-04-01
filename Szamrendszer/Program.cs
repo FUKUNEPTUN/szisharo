@@ -10,7 +10,10 @@ namespace Szamrendszer
     {
         int szam, a, szamrendszer, maradek;
         List<int> ere = new List<int>();
-
+        //
+        /// <summary>
+        /// Teljesen ugyanaz, mint a "Kettes" projekt, mivel először ezt csináltam meg és butítottam vissza oda is
+        /// </summary>
         public Minden() { }
         public void sharo()
         {

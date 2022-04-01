@@ -20,29 +20,29 @@ namespace Lotto
             Console.WriteLine("A nyerőszámok:");
             Console.WriteLine("==============");
 
-            for (int i = 0; i < szam.Length; i++)
+            for (int i = 0; i < szam.Length; i++)//nyerőszámok, ismétlésmentesen
             {
-                sorsolas = random.Next(1, 91);
+                sorsolas = random.Next(1, 91);//a random szám mind egy számmal visszább generál
                 b = 0;
-                mehet = true;
+                mehet = true; //true érték adás, hogy legalább 1x lefusson a program, ezt meg lehet adni do while-al is, de nekem így egyszerűbb
                 while (b < i && mehet == true)
                 {
-                    if (szam[b] == sorsolas)
+                    if (szam[b] == sorsolas)//ha a sorsolt számunk megegyezik az adott indexen lévő számmal, akkor false értéket kap az ellenőrzőváltozóm
                     {
                         mehet = false;
                         Console.WriteLine("ujra");
                     }
-                    else
+                    else //ha nem egyenlő, akkor a "mehet" marad true és megnöveljük a "b" változót, az indexét a tömbnek
                     {
                         mehet = true;
                         b++;
                     }
-                }
+                } // ha minden passzol és az ellenőrző true marad, akkor a szám[i] megkapja a sorsolt számot
                 if (mehet == true)
                 {
                     szam[i] = sorsolas;
                 }
-                else
+                else //ha false lett, akkor 1-el visszalépünk az index-en, mivel a for ciklus miatt minden futás után nő 1-el és ugyanezen az indexen fusson le megint
                 {
                     i--;
                 }
@@ -61,17 +61,17 @@ namespace Lotto
             {
                 jatekos[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 5; i++) // játékos számainak, bekérése után összehasonlítjuk
             {
                 for (int j = 0; j < 5; j++)
                 {
                     if (jatekos[i] == szam[j])
                     {
-                        talalt++;
+                        talalt++; //ha volt egy találatunk a talalt változó kap +1 et
                     }
                 }
             }
-            switch (talalt)
+            switch (talalt) //megnézzük mennyit talált el a pajtás és eredményének megfelelően, kap egy üzenetet, illetve a nyereményének összegét is megtudja
             {
                 case 0:
                     Console.WriteLine("Nem nyertél semmit, majd legközelebb");
