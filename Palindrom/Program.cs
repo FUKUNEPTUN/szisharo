@@ -13,29 +13,58 @@ namespace Palindrom
         char[] tomb1;
         char[] tomb2;
         bool alak = true;
-        int i = 0;
         public Palindrom() { }
         public void pabaji()
         {
+            //
+
+            Console.WriteLine("Írd be a szöveget");
             beolvas = Console.ReadLine();//szöveg beolvas
             Console.Clear(); // amit a felhasználó beírt szöveg, annak törlése, hogy az időközben lefutó tesztek, ellenőrzések átláthatóbbak legyeneke
             Console.WriteLine(beolvas);
             beolvas = beolvas.ToUpper();//Nagybetűvé alakítás
             Console.WriteLine(beolvas);
-            beolvas = beolvas.Replace("."," ");//zavaró karakterek kiszedése
+            beolvas = beolvas.Replace("."," ");//zavaró karakterek kiszedése, 2 vagy több karakterből álló betűk semlegesítése
             beolvas = beolvas.Replace(",", " ");
             beolvas = beolvas.Replace("?", " ");
+            beolvas = beolvas.Replace(":", " ");
             beolvas = beolvas.Replace("!", " ");
+            beolvas = beolvas.Replace("-", " ");
+            beolvas = beolvas.Replace("Í", "I");
+            beolvas = beolvas.Replace("Ó", "O");
+            beolvas = beolvas.Replace("Ő", "Ö");
+            beolvas = beolvas.Replace("U", "Ú");
+            beolvas = beolvas.Replace("Ü", "Ű");
+            beolvas = beolvas.Replace("CS", "CCC");
+            beolvas = beolvas.Replace("DZ", "DDD");
+            beolvas = beolvas.Replace("DZS", "DDDD");
+            beolvas = beolvas.Replace("GY", "GG");
+            beolvas = beolvas.Replace("DJ", "GG");
+            beolvas = beolvas.Replace("LY", "J");
+            beolvas = beolvas.Replace("NY", "NN");
+            beolvas = beolvas.Replace("SZ", "SSS");
+            beolvas = beolvas.Replace("TY", "YYY");
+            beolvas = beolvas.Replace("ZS", "SSS");
             Console.WriteLine(beolvas);
             beolvas = String.Concat(beolvas.Where(c => !Char.IsWhiteSpace(c)));//szóközök kiszedése
             Console.WriteLine(beolvas);
             tomb2 = beolvas.ToCharArray();
             tomb1 = new char[beolvas.Length];
-                for (int j = tomb2.Length - 1; j >= 0; j--) //a szöveg megfordítsa
-                {
-                    tomb1[i] = tomb2[j];
-                     i++;
-                }
+            for (int i = 0; i < tomb2.Length; i++)
+            {
+                tomb1[i] = tomb2[i];
+            }
+            Array.Reverse(tomb1);//a szöveg megfordítsa
+            for (int i = 0; i < tomb1.Length; i++)
+            {
+                Console.Write(tomb1[i]);
+            }
+            Console.WriteLine(" ");
+            //for (int j = tomb2.Length - 1; j >= 0; j--) 
+            //{
+            //    tomb1[i] = tomb2[j];
+            //     i++;
+            //}
             if (tomb1.Length == tomb2.Length)
             {
 
