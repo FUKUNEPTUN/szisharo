@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szamrendszer", "Szamrendsze
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrom", "Palindrom\Palindrom.csproj", "{F62BB405-BB68-4AC4-8220-E86BB08910D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tukor", "Tukor\Tukor.csproj", "{42F35C46-702F-4D90-BF50-3E94E88DFD38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{F62BB405-BB68-4AC4-8220-E86BB08910D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62BB405-BB68-4AC4-8220-E86BB08910D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62BB405-BB68-4AC4-8220-E86BB08910D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F35C46-702F-4D90-BF50-3E94E88DFD38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F35C46-702F-4D90-BF50-3E94E88DFD38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F35C46-702F-4D90-BF50-3E94E88DFD38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F35C46-702F-4D90-BF50-3E94E88DFD38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
