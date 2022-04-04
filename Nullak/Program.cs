@@ -10,17 +10,20 @@ namespace Nullak
     {
         int szamol = 0, max = 0;
         int index;
+
         string[] teszt = new string[8];
         public Nullak() { }
         public void mi()
         {
             Console.WriteLine("Érték");
             Random rnd = new Random();
-            //Convert.ToString(rnd.Next(0,20000))
-            string data = "100000",teszt2;
+            
+            string igenNem = "i",teszt2;
+
+
             for (int i = 0; i < teszt.Length; i++)
             {
-                teszt[i] = Convert.ToString(rnd.Next(100, 1000000));
+                teszt[i] = Convert.ToString(rnd.Next(0, 1000001));
                 Console.WriteLine(teszt[i]);
             }
             for (int i = 0; i < teszt.Length; i++)
@@ -38,13 +41,20 @@ namespace Nullak
                 {
                     max = szamol;
                     index = i;
+                    
                 }
                 szamol = 0;
 
             }
-            
-            Console.WriteLine("Generált számok: {0} \t Legtöbb nullával rendelkező szám: {1} \t Benne talált nullák száma: {2}",szamol, teszt[index],max);
-            
+            if (max != 0)
+	{
+                Console.WriteLine("Legtöbb nullával rendelkező szám: {0} \t Benne talált nullák száma: {1}", teszt[index],max);
+	}
+                            else if (max == 0)
+	{
+                    Console.WriteLine("Nincs nullával rendelkező szám");
+	}
+
         }
     }
     internal class Program
