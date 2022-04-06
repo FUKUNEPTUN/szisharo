@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32228.430
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "szisharo", "szisharo\szisharo.csproj", "{10379747-66BD-4508-933C-FD861F910C95}"
 EndProject
@@ -84,6 +84,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tukor", "Tukor\Tukor.csproj", "{42F35C46-702F-4D90-BF50-3E94E88DFD38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullak", "Nullak\Nullak.csproj", "{36778FC7-5621-43C5-A5C1-5C181A772BCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForAndForeach", "ForAndForeach\ForAndForeach.csproj", "{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{36778FC7-5621-43C5-A5C1-5C181A772BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36778FC7-5621-43C5-A5C1-5C181A772BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36778FC7-5621-43C5-A5C1-5C181A772BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
