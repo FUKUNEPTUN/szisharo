@@ -10,7 +10,7 @@ namespace MatrixBill
     {
         int[,] matric;
         Random rnd = new Random();
-        public Matrix(){ }
+        public Matrix() { }
         public void us()
         {
             Console.WriteLine("Add meg az oszlopok számát");
@@ -24,17 +24,23 @@ namespace MatrixBill
                 for (int j = 0; j < a; j++)
                 {
 
-                    //matric[i, j] = Convert.ToInt32(Console.ReadLine());
-                matric[i, j] = rnd.Next(1, 900);
+                    Console.Write("\t");
+                    matric[i, j] = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("A beírt érték ide került:");
+                    Console.WriteLine("oszlop index {0}  sor index {1}", i, j);
+                    Console.WriteLine(" ");
+                    Console.WriteLine("-----------------------------------");
+
+
                 }
             }
 
             for (int i = 0; i < b; i++)
-           {
-               for (int j = 0; j < a; j++)
+            {
+                for (int j = 0; j < a; j++)
                 {
                     Console.Write("{0} ", matric[i, j]);
-                    
+
                 }
                 Console.WriteLine();
             }
