@@ -87,6 +87,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullak", "Nullak\Nullak.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForAndForeach", "ForAndForeach\ForAndForeach.csproj", "{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{F130A5EC-95FF-46DD-A6C3-A823ED5EC0ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C284445-0730-4B50-8DBC-CEBEE9BE92DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F130A5EC-95FF-46DD-A6C3-A823ED5EC0ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F130A5EC-95FF-46DD-A6C3-A823ED5EC0ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F130A5EC-95FF-46DD-A6C3-A823ED5EC0ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F130A5EC-95FF-46DD-A6C3-A823ED5EC0ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
