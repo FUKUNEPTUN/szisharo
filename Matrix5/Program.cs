@@ -32,9 +32,10 @@ namespace Matrix4
                     szamol++;
                 }
             }
-            Console.WriteLine("Adja meg a 3 számot");
             do
             {
+
+                Console.WriteLine("Adja meg a 3 számot");
                 string[] ertek = Console.ReadLine().Split(',');
                 int sor = Convert.ToInt32(ertek[0]), oszlop = Convert.ToInt32(ertek[1]), csere = Convert.ToInt32(ertek[2]);
                 if (matrix[sor, oszlop] == 0)
