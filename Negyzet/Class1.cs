@@ -10,6 +10,7 @@ namespace Negyzet
         {
             // Tagváltozó
             public double Side { get; set; }
+        double oszlop;
 
             // Konstruktor
             public Negyszog(double side)
@@ -34,6 +35,14 @@ namespace Negyzet
             {
                 return Math.Sqrt(2 * Math.Pow(this.Side, 2));
             }
+        public void setOszlop(double magas)
+        {
+            if (magas <= 0)
+            {
+                throw new ArgumentException("A magasság nem lehet 0");
+            }
+            else this.oszlop = magas;
+        }
         }
 
     }

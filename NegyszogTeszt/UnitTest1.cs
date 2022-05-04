@@ -31,5 +31,11 @@ namespace NegyszogTest
             double vart = 8.0;
             Assert.AreEqual(vart, kapott);
         }
+        [TestMethod,ExpectedException(typeof(ArgumentException))]
+        public void TestMethod4()
+        {
+            double m = -10;
+            nsz.setOszlop(m);
+        }
     }
 }
