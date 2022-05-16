@@ -1,27 +1,25 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+using System;  
+using Oszthat;
 
 namespace OszthatoTest
 {
+    Oszthat.Ehes a = new Ehes;
+    
     [TestClass]
     public class UnitTest1
     {
+    
         [TestMethod]
-        public void TestMethod1()
+        public void setSzam()
         {
-                           //AAA
-            string vartEredmeny = "Hello Bello";
+                
 
+        }
+        [TestMethod]
+        public void getSzam()
+        {
 
-            //Action
-            using (var sw = new StringWriter())
-            {
-                Console.SetOut(sw);
-                ConsoleWrite.Program.Main();
-                var kapottEredmeny = sw.ToString().Trim();
-                //Assert
-                Assert.AreEqual(kapottEredmeny, vartEredmeny);
-            }
 
         }
     }
