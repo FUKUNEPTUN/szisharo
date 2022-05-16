@@ -9,7 +9,20 @@ namespace OszthatoTest
         [TestMethod]
         public void TestMethod1()
         {
-            Oszthat.Ehes.
+                           //AAA
+            string vartEredmeny = "Hello Bello";
+
+
+            //Action
+            using (var sw = new StringWriter())
+            {
+                Console.SetOut(sw);
+                ConsoleWrite.Program.Main();
+                var kapottEredmeny = sw.ToString().Trim();
+                //Assert
+                Assert.AreEqual(kapottEredmeny, vartEredmeny);
+            }
+
         }
     }
 }
