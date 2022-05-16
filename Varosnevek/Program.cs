@@ -23,10 +23,6 @@ namespace Varosnevek
         bool folyt;
         public void setDb()
         {
-
-
-            do
-            {
                 folyt = false;
                 Console.WriteLine("Hány várost tároljunk el?");
                 beolvas = Console.ReadLine();
@@ -38,21 +34,19 @@ namespace Varosnevek
                 {
                     this.beolvasSzam = Convert.ToInt32(beolvas);
                 }
-            } while (folyt);
         }
         public void setNevek()
         {
-            for (int i = 0; i < beolvasSzam; i++)
+            if (folyt)
             {
                 do
                 {
-                    folyt = false;
+                    folyt = true;
                     Console.WriteLine("Adja meg a város nevet");
                     beolvasVaros = Console.ReadLine();
-                    if (beolvasVaros == "0" || beolvasVaros == "")
+                    if (beolvasVaros == "0" || beolvasVaros == "" || beolvasVaros == " ")
                     {
-                        Console.WriteLine("A beírt érték érvénytelen");
-                        folyt = true;
+                        folyt = false;
                     }
                     else
                     {
@@ -60,6 +54,17 @@ namespace Varosnevek
                     }
                 } while (folyt);
             }
+            else
+            {
+                for (int i = 0; i < beolvasSzam; i++)
+                {
+                    Console.WriteLine("Adja meg a város nevet (ennyit fogunk beolvasni: {0})",beolvasSzam);
+                    beolvasVaros = Console.ReadLine();
+                    parts.Add(beolvasVaros);
+                }
+            }
+
+            
 
         }
         public void getNevek()
