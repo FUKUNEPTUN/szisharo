@@ -115,6 +115,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OszthatoTest", "OszthatoTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varosnevek", "Varosnevek\Varosnevek.csproj", "{12083D7C-A219-40AB-BDA9-4CB24DFCBB1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Henger3", "Henger3\Henger3.csproj", "{BDAD7D19-C6D8-468A-A00B-0FAB3040DE32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Henger3Teszt", "Henger3Teszt\Henger3Teszt.csproj", "{D1C8B3FE-AFA3-4293-B30C-0581886852B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -345,6 +349,14 @@ Global
 		{12083D7C-A219-40AB-BDA9-4CB24DFCBB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12083D7C-A219-40AB-BDA9-4CB24DFCBB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12083D7C-A219-40AB-BDA9-4CB24DFCBB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAD7D19-C6D8-468A-A00B-0FAB3040DE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAD7D19-C6D8-468A-A00B-0FAB3040DE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAD7D19-C6D8-468A-A00B-0FAB3040DE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAD7D19-C6D8-468A-A00B-0FAB3040DE32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C8B3FE-AFA3-4293-B30C-0581886852B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C8B3FE-AFA3-4293-B30C-0581886852B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C8B3FE-AFA3-4293-B30C-0581886852B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C8B3FE-AFA3-4293-B30C-0581886852B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
