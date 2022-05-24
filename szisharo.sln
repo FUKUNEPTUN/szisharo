@@ -121,7 +121,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Henger3Teszt", "Henger3Tesz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rekordok", "Rekordok\Rekordok.csproj", "{DF154530-53A4-4212-A762-887B57F80B4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratLapoz", "BaratLapoz\BaratLapoz.csproj", "{114F79EC-FDBD-47F3-B4C1-168B412DD965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaratLapoz", "BaratLapoz\BaratLapoz.csproj", "{114F79EC-FDBD-47F3-B4C1-168B412DD965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsoForm", "ElsoForm\ElsoForm.csproj", "{B21D7D62-2B88-42F9-AB83-6585E138D89C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +371,10 @@ Global
 		{114F79EC-FDBD-47F3-B4C1-168B412DD965}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{114F79EC-FDBD-47F3-B4C1-168B412DD965}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{114F79EC-FDBD-47F3-B4C1-168B412DD965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21D7D62-2B88-42F9-AB83-6585E138D89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21D7D62-2B88-42F9-AB83-6585E138D89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21D7D62-2B88-42F9-AB83-6585E138D89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21D7D62-2B88-42F9-AB83-6585E138D89C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
