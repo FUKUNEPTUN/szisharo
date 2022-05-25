@@ -129,6 +129,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratBuli", "BaratBuli\Bara
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratNagyBuli", "BaratNagyBuli\BaratNagyBuli.csproj", "{C756E0AD-EE82-4DDA-A373-6261373256AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sda", "sda\sda.csproj", "{4DEEB90C-5A99-42DD-87EC-BADC7ADBE6C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sdaTest", "sdaTest\sdaTest.csproj", "{C18A9811-A557-4876-87A1-219D4E01A4DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -326,6 +330,14 @@ Global
 		{C756E0AD-EE82-4DDA-A373-6261373256AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C756E0AD-EE82-4DDA-A373-6261373256AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C756E0AD-EE82-4DDA-A373-6261373256AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEEB90C-5A99-42DD-87EC-BADC7ADBE6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEEB90C-5A99-42DD-87EC-BADC7ADBE6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEEB90C-5A99-42DD-87EC-BADC7ADBE6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEEB90C-5A99-42DD-87EC-BADC7ADBE6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18A9811-A557-4876-87A1-219D4E01A4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18A9811-A557-4876-87A1-219D4E01A4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18A9811-A557-4876-87A1-219D4E01A4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18A9811-A557-4876-87A1-219D4E01A4DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
