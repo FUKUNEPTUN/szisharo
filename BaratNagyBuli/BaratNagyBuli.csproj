@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{06C10819-995F-4401-ABBE-EC79ADADFEE0}</ProjectGuid>
+    <ProjectGuid>{C756E0AD-EE82-4DDA-A373-6261373256AA}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BaratLapoz</RootNamespace>
-    <AssemblyName>BaratLapoz</AssemblyName>
+    <RootNamespace>BaratNagyBuli</RootNamespace>
+    <AssemblyName>BaratNagyBuli</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
