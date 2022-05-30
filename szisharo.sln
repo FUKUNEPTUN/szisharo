@@ -137,7 +137,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KalkulatorUt", "KalkulatorU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KalkulatorUtTeszt", "KalkulatorUtTeszt\KalkulatorUtTeszt.csproj", "{2748EA66-9974-4ABA-9B14-3AAA8B8104C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxUt", "MinMaxUt\MinMaxUt.csproj", "{04E570EA-B580-465B-9A34-2033CBD05058}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxUt", "MinMaxUt\MinMaxUt.csproj", "{07A15501-B1E8-4713-973D-816DC6FE6607}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -352,10 +352,10 @@ Global
 		{2748EA66-9974-4ABA-9B14-3AAA8B8104C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2748EA66-9974-4ABA-9B14-3AAA8B8104C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2748EA66-9974-4ABA-9B14-3AAA8B8104C2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{04E570EA-B580-465B-9A34-2033CBD05058}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04E570EA-B580-465B-9A34-2033CBD05058}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04E570EA-B580-465B-9A34-2033CBD05058}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04E570EA-B580-465B-9A34-2033CBD05058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A15501-B1E8-4713-973D-816DC6FE6607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A15501-B1E8-4713-973D-816DC6FE6607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A15501-B1E8-4713-973D-816DC6FE6607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A15501-B1E8-4713-973D-816DC6FE6607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

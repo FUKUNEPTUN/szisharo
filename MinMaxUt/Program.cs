@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace MinMaxUt
 {
     class MyClass
-    { 
-        public void sa()
+    {
+        public void kaka()
         {
             int min = 1000; // Minimum megadása
             int max = 0; // Maximum megadása
@@ -37,16 +37,22 @@ namespace MinMaxUt
                     maxInd = i;
                 }
             }
+            Array.Sort(tomb);
             Console.WriteLine("A minimum szám: {0}, helye: {1}", min, minInd);
             Console.WriteLine("A maximum szám: {0}, helye: {1}", max, maxInd);
-            Console.ReadKey();
         }
+
     }
+
     class Program
     {
 
         static void Main(string[] args)
         {
+            MyClass myClass = new MyClass();
+            myClass.kaka();
+            Console.ReadKey();
         }
+
     }
 }
