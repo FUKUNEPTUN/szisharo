@@ -1,0 +1,10 @@
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\bin\Debug\FormMozd.exe.config
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\bin\Debug\FormMozd.exe
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\bin\Debug\FormMozd.pdb
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.csprojAssemblyReference.cache
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.Form1.resources
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.Properties.Resources.resources
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.csproj.GenerateResource.cache
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.csproj.CoreCompileInputs.cache
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.exe
+C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.pdb
