@@ -12,7 +12,10 @@ namespace FormMozd
 {
     public partial class Form1 : Form
     {
-        int mozog = 5;
+        int mozog = 5,noveked = 25;
+        double allit = 0.1;
+        int sav = 40;
+
         public Form1()
         {
             InitializeComponent();
@@ -74,5 +77,47 @@ namespace FormMozd
         {
             Left = Screen.PrimaryScreen.WorkingArea.Width - Width;
         }
+
+        private void btnMerekCsok_Click(object sender, EventArgs e)
+        {
+
+            if (Height >= groupBox1.Top + groupBox1.Height + sav)
+            {
+                Height -= noveked;
+            }
+            if (Width >= groupBox1.Left + groupBox1.Width)
+            {
+                Width -= noveked;
+            }
+        }
+
+        private void btnAtlatNo_Click(object sender, EventArgs e)
+        {
+           if (Opacity > 0.2)
+            {
+                Opacity -= allit;
+            }
+        }
+
+        private void btnAtlatCsok_Click(object sender, EventArgs e)
+        {
+            if (Opacity < 1)
+            {
+                Opacity += allit;
+            } 
+        }
+
+        private void btnMeretNo_Click(object sender, EventArgs e)
+        {
+            if (Screen.PrimaryScreen.WorkingArea.Height - Height >= Top)
+            {
+                Height += noveked;
+            }
+            if (Screen.PrimaryScreen.WorkingArea.Width - Width >= Left)
+            {
+                Width += noveked;
+            }
+        }
+
     }
 }

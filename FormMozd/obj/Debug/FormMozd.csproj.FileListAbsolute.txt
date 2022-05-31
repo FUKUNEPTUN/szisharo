@@ -8,3 +8,13 @@ C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\Fo
 C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.csproj.CoreCompileInputs.cache
 C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.exe
 C:\Users\2021291\Downloads\szisharo-master\szisharo-master\FormMozd\obj\Debug\FormMozd.pdb
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\bin\Debug\FormMozd.exe.config
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\bin\Debug\FormMozd.exe
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\bin\Debug\FormMozd.pdb
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\obj\Debug\FormMozd.csproj.AssemblyReference.cache
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\obj\Debug\FormMozd.Form1.resources
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\obj\Debug\FormMozd.Properties.Resources.resources
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\obj\Debug\FormMozd.csproj.GenerateResource.cache
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\obj\Debug\FormMozd.csproj.CoreCompileInputs.cache
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\obj\Debug\FormMozd.exe
+C:\Users\2021291\Source\Repos\FUKUNEPTUN\szisharo\FormMozd\obj\Debug\FormMozd.pdb
