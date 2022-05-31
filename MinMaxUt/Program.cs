@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MinMaxUt
 {
-    class MyClass
+     public class MyClass
     {
         int min = 1000; // Minimum megadása
         int max = 0; // Maximum megadása
@@ -18,7 +18,7 @@ namespace MinMaxUt
         Random veletlen = new Random(); // Random generálás
         public MyClass()
         {
-
+            feltoltes();
         }
         public MyClass(int a)
         {
@@ -28,14 +28,16 @@ namespace MinMaxUt
             }
 
         }
-        public void kaka()
+        private void feltoltes()
         {
-
-
             for (i = 0; i < tomb.Length; i++) // Végigmegy a tömb indexein miközben feltölti azokat
             {
                 tomb[i] = veletlen.Next(0, 10000); // Random generálás megadott tartományok között
             }
+         
+        }
+        public void kaka()
+        {
             for (i = 0; i < tomb.Length; i++) // Végigmegy a tömb elemein a megadott határig (i < 50 => 50 elemen)
             {
                 //Console.WriteLine(tomb[i]);
@@ -50,11 +52,8 @@ namespace MinMaxUt
                     maxInd = i;
                 }
             }
-            Array.Sort(tomb);
-            Console.WriteLine("A minimum szám: {0}, helye: {1}", min, minInd);
-            Console.WriteLine("A maximum szám: {0}, helye: {1}", max, maxInd);
+            Console.WriteLine("A minimum szám: {0}, helye: {1} || A maximum szám: {2}, helye: {3}", min, minInd, max, maxInd);
         }
-
     }
 
     class Program
@@ -62,7 +61,8 @@ namespace MinMaxUt
 
         static void Main(string[] args)
         {
-            MyClass myClass = new MyClass();
+            MyClass myClass = new MyClass(1);
+            
             myClass.kaka();
             Console.ReadKey();
         }
