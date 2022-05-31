@@ -16,6 +16,16 @@ namespace KalkulatorUt
         string uzen = "a művelet eredménye";
         bool nulla = false;
         //Beolvasok
+        public Kalki()
+        {
+
+        }
+        public Kalki(double a, double b, char c)
+        {
+            szam1 = a;
+            szam2 = b;
+            muvjel = c;
+        }
         public void Beolvas()
         {
             Console.WriteLine("Adja meg az első számot");
@@ -25,11 +35,8 @@ namespace KalkulatorUt
             Console.WriteLine("Adja meg a műveletijelet");
             muvjel = Convert.ToChar(Console.ReadLine());
         }
-        public double Szam(double a, double b,char sda)
+        public double Szam()
         {
-            szam1 = a;
-            szam2 = b;
-            muvjel = sda;
             switch (muvjel)
             {
                 case '+':
@@ -68,7 +75,7 @@ namespace KalkulatorUt
         {
             Kalki kalki = new Kalki();
             kalki.Beolvas();
-            Console.WriteLine(kalki.Szam(1,2,'/'));
+            Console.WriteLine(kalki.Szam());
             Console.ReadKey();
         }
     }

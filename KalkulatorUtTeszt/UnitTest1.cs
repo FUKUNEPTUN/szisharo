@@ -8,43 +8,86 @@ namespace KalkulatorUtTeszt
     [TestClass]
     public class UnitTest1
     {
-        Kalki kalki = new Kalki();
+        
         [TestMethod]
         public void Osztas()
         {
-            double tesztSzam = 15, tesztSzam2 = 5;
+            Kalki kalki = new Kalki(15,5,'/');
             double vart = 3, kapott;
-            char a = '/';
-            kapott = kalki.Szam(tesztSzam,tesztSzam2,a);
+            kapott = kalki.Szam();
             Assert.AreEqual(vart, kapott);
+            kalki = null;
         }
         [TestMethod]
         public void Szorzas()
         {
-            double tesztSzam = 15, tesztSzam2 = 5;
+            Kalki kalki = new Kalki(15, 5, '*');
+            
             double vart = 75, kapott;
-            char a = '*';
-            kapott = kalki.Szam(tesztSzam, tesztSzam2, a);
+
+            kapott = kalki.Szam();
             Assert.AreEqual(vart, kapott);
+            kalki = null;
         }
 
         [TestMethod]
         public void Osszeadas()
         {
-            double tesztSzam = 15, tesztSzam2 = 5;
+            Kalki kalki = new Kalki(15, 5, '+');
             double vart = 20, kapott;
-            char a = '+';
-            kapott = kalki.Szam(tesztSzam, tesztSzam2, a);
+            kapott = kalki.Szam();
             Assert.AreEqual(vart, kapott);
+            kalki = null;
         }
         [TestMethod]
         public void Kivonas()
         {
-            double tesztSzam = 15, tesztSzam2 = 5;
+            Kalki kalki = new Kalki(15, 5, '-');
             double vart = 10, kapott;
             char a = '-';
-            kapott = kalki.Szam(tesztSzam, tesztSzam2, a);
+            kapott = kalki.Szam();
             Assert.AreEqual(vart, kapott);
+            kalki = null;
+        }
+        [TestMethod]
+        public void OsztasRossz()
+        {
+            Kalki kalki = new Kalki(15, 5, '/');
+            double vart = 4, kapott;
+            kapott = kalki.Szam();
+            Assert.AreNotEqual(vart, kapott);
+            kalki = null;
+        }
+        [TestMethod]
+        public void SzorzasRossz()
+        {
+            Kalki kalki = new Kalki(15, 5, '*');
+
+            double vart = 76, kapott;
+
+            kapott = kalki.Szam();
+            Assert.AreNotEqual(vart, kapott);
+            kalki = null;
+        }
+
+        [TestMethod]
+        public void OsszeadasRossz()
+        {
+            Kalki kalki = new Kalki(15, 5, '+');
+            double vart = 21, kapott;
+            kapott = kalki.Szam();
+            Assert.AreNotEqual(vart, kapott);
+            kalki = null;
+        }
+        [TestMethod]
+        public void KivonasRossz()
+        {
+            Kalki kalki = new Kalki(15, 5, '-');
+            double vart = 11, kapott;
+            char a = '-';
+            kapott = kalki.Szam();
+            Assert.AreNotEqual(vart, kapott);
+            kalki = null;
         }
 
         //Nullára nem sikerult letesztelni
