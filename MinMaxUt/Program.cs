@@ -8,16 +8,29 @@ namespace MinMaxUt
 {
     class MyClass
     {
+        int min = 1000; // Minimum megadása
+        int max = 0; // Maximum megadása
+        int minInd = 0; // A kiválasztott minimum indexe
+        int maxInd = 0; // A kiválasztott maximum indexe
+        int i; // A tömb egy pillanatnyi indexe
+
+        int[] tomb = new int[100]; // Tömb meghatározása és a terület lefoglalása neki
+        Random veletlen = new Random(); // Random generálás
+        public MyClass()
+        {
+
+        }
+        public MyClass(int a)
+        {
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                tomb[i] = i+1;
+            }
+
+        }
         public void kaka()
         {
-            int min = 1000; // Minimum megadása
-            int max = 0; // Maximum megadása
-            int minInd = 0; // A kiválasztott minimum indexe
-            int maxInd = 0; // A kiválasztott maximum indexe
-            int i; // A tömb egy pillanatnyi indexe
 
-            int[] tomb = new int[100]; // Tömb meghatározása és a terület lefoglalása neki
-            Random veletlen = new Random(); // Random generálás
 
             for (i = 0; i < tomb.Length; i++) // Végigmegy a tömb indexein miközben feltölti azokat
             {
