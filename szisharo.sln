@@ -143,6 +143,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxTeszt", "MinMaxTeszt\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormMozd", "FormMozd\FormMozd.csproj", "{29BCE38C-56F5-409B-841B-E16B0072F090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szinek", "Szinek\Szinek.csproj", "{F772F454-5F7F-46FF-BC5C-78BD2962A8F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -368,6 +370,10 @@ Global
 		{29BCE38C-56F5-409B-841B-E16B0072F090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29BCE38C-56F5-409B-841B-E16B0072F090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29BCE38C-56F5-409B-841B-E16B0072F090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F772F454-5F7F-46FF-BC5C-78BD2962A8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F772F454-5F7F-46FF-BC5C-78BD2962A8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F772F454-5F7F-46FF-BC5C-78BD2962A8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F772F454-5F7F-46FF-BC5C-78BD2962A8F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
