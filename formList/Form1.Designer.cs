@@ -36,8 +36,8 @@ namespace formList
             this.listBox5 = new System.Windows.Forms.ListBox();
             this.listBox6 = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txt = new System.Windows.Forms.TextBox();
+            this.TBx_B = new System.Windows.Forms.TextBox();
+            this.TBx_A = new System.Windows.Forms.TextBox();
             this.btnEloall = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -98,19 +98,19 @@ namespace formList
             this.label1.TabIndex = 1;
             this.label1.Text = "Halmazok elemszáma";
             // 
-            // textBox1
+            // TBx_B
             // 
-            this.textBox1.Location = new System.Drawing.Point(15, 352);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.TBx_B.Location = new System.Drawing.Point(15, 352);
+            this.TBx_B.Name = "TBx_B";
+            this.TBx_B.Size = new System.Drawing.Size(100, 20);
+            this.TBx_B.TabIndex = 2;
             // 
-            // txt
+            // TBx_A
             // 
-            this.txt.Location = new System.Drawing.Point(15, 326);
-            this.txt.Name = "txt";
-            this.txt.Size = new System.Drawing.Size(100, 20);
-            this.txt.TabIndex = 3;
+            this.TBx_A.Location = new System.Drawing.Point(15, 326);
+            this.TBx_A.Name = "TBx_A";
+            this.TBx_A.Size = new System.Drawing.Size(100, 20);
+            this.TBx_A.TabIndex = 3;
             // 
             // btnEloall
             // 
@@ -120,6 +120,7 @@ namespace formList
             this.btnEloall.TabIndex = 4;
             this.btnEloall.Text = "Előállít";
             this.btnEloall.UseVisualStyleBackColor = true;
+            this.btnEloall.Click += new System.EventHandler(this.btnEloall_Click);
             // 
             // Form1
             // 
@@ -127,8 +128,8 @@ namespace formList
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnEloall);
-            this.Controls.Add(this.txt);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TBx_A);
+            this.Controls.Add(this.TBx_B);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox6);
             this.Controls.Add(this.LBx_unio);
@@ -152,8 +153,8 @@ namespace formList
         private System.Windows.Forms.ListBox listBox5;
         private System.Windows.Forms.ListBox listBox6;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox txt;
+        private System.Windows.Forms.TextBox TBx_B;
+        private System.Windows.Forms.TextBox TBx_A;
         private System.Windows.Forms.Button btnEloall;
     }
 }

@@ -16,5 +16,11 @@ namespace formList
         {
             InitializeComponent();
         }
+
+        private void btnEloall_Click(object sender, EventArgs e)
+        {
+            HalmazGeneral(LBx_a, Convert.ToInt32(TBx_A.Text));
+            HalmazGeneral(LBx_a, Convert.ToInt32(TBx_B.Text));
+        }
     }
 }
