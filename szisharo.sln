@@ -147,6 +147,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Szinek", "Szinek\Szinek.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formDinamic", "formDinamic\formDinamic.csproj", "{0EF09F8E-9292-410F-A89F-79A10A31723E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formList", "formList\formList.csproj", "{B0030EB4-0C21-4903-8747-E24C68BD7D7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -380,6 +382,10 @@ Global
 		{0EF09F8E-9292-410F-A89F-79A10A31723E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EF09F8E-9292-410F-A89F-79A10A31723E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EF09F8E-9292-410F-A89F-79A10A31723E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0030EB4-0C21-4903-8747-E24C68BD7D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0030EB4-0C21-4903-8747-E24C68BD7D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0030EB4-0C21-4903-8747-E24C68BD7D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0030EB4-0C21-4903-8747-E24C68BD7D7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
