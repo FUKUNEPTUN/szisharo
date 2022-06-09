@@ -149,6 +149,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formDinamic", "formDinamic\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formList", "formList\formList.csproj", "{B0030EB4-0C21-4903-8747-E24C68BD7D7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeglaTDD", "TeglaTDD\TeglaTDD.csproj", "{3896A41E-3088-496D-8ED6-F839D217B487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeglaTDDtest", "TeglaTDDtest\TeglaTDDtest.csproj", "{EC7DA2E9-EB57-4D3F-8BB4-D0AF80922514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -386,6 +390,14 @@ Global
 		{B0030EB4-0C21-4903-8747-E24C68BD7D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0030EB4-0C21-4903-8747-E24C68BD7D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0030EB4-0C21-4903-8747-E24C68BD7D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3896A41E-3088-496D-8ED6-F839D217B487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3896A41E-3088-496D-8ED6-F839D217B487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3896A41E-3088-496D-8ED6-F839D217B487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3896A41E-3088-496D-8ED6-F839D217B487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7DA2E9-EB57-4D3F-8BB4-D0AF80922514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7DA2E9-EB57-4D3F-8BB4-D0AF80922514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7DA2E9-EB57-4D3F-8BB4-D0AF80922514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7DA2E9-EB57-4D3F-8BB4-D0AF80922514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
